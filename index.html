@@ -1,0 +1,1110 @@
+<!DOCTYPE html><html><head><title>Katos Merda</title><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui=1"><meta charset="UTF-8"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="description" content=""><link rel="manifest" href="manifest.json"><link rel="icon" type="image/png" href="icon64.png"><link rel="apple-touch-icon" sizes="180x180" href="icon180.png"><link rel="icon" type="image/png" sizes="32x32" href="icon32.png"><link rel="icon" type="image/png" sizes="16x16" href="icon16.png"><style>html,body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  overflow:hidden;
+  font-family: Verdana;
+}
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#canvaswrapper {
+  text-align: center ;
+}
+</style><style>@font-face { font-family: "BitCell" ; src: url("fonts/BitCell.ttf") format("truetype"); }</style><script>window.fonts = ["BitCell"]</script></head><body class="noselect custom-cursor" oncontextmenu="return false;"><div id="canvaswrapper"></div><script type="text/javascript">var resources = {"images":[{"file":"avatars-0.png","version":1,"size":49674,"properties":{}},{"file":"avatars-1.png","version":1,"size":70749,"properties":{}},{"file":"avatars-2.png","version":1,"size":78171,"properties":{}},{"file":"avatars-3.png","version":1,"size":72602,"properties":{}},{"file":"avatars-4.png","version":1,"size":67225,"properties":{}},{"file":"avatars-5.png","version":1,"size":72727,"properties":{}},{"file":"avatars-6.png","version":1,"size":74919,"properties":{}},{"file":"avatars-7.png","version":1,"size":68705,"properties":{}},{"file":"avatars-8.png","version":1,"size":64162,"properties":{}},{"file":"avatars-83.png","version":1,"size":125921,"properties":{}},{"file":"avatars-84.png","version":1,"size":747082,"properties":{}},{"file":"bagliore_rosso.png","version":1,"size":43010,"properties":{}},{"file":"bagliore_verde.png","version":1,"size":43011,"properties":{}},{"file":"cesto.png","version":1,"size":578812,"properties":{}},{"file":"gui-aiuto.png","version":1,"size":380686,"properties":{}},{"file":"gui-exit.png","version":1,"size":105419,"properties":{}},{"file":"gui-menu.png","version":1,"size":1439797,"properties":{}},{"file":"gui-nome.png","version":1,"size":180495,"properties":{}},{"file":"gui-nuvola.png","version":1,"size":755550,"properties":{}},{"file":"gui-pausa.png","version":1,"size":17856,"properties":{}},{"file":"gui-podio.png","version":1,"size":27408,"properties":{}},{"file":"gui-punteggi.png","version":5,"size":99014,"properties":{"frames":1,"fps":5}},{"file":"gui-sfondo.png","version":3,"size":960827,"properties":{"frames":1,"fps":5}},{"file":"icon.png","version":3,"size":1017470,"properties":{"frames":1,"fps":5}},{"file":"oggetti-ale.png","version":1,"size":227646,"properties":{}},{"file":"oggetti-bro.png","version":1,"size":271424,"properties":{}},{"file":"oggetti-gerry.png","version":1,"size":15830,"properties":{}},{"file":"oggetti-giulia.png","version":1,"size":282153,"properties":{}},{"file":"oggetti-katos.png","version":1,"size":442736,"properties":{}},{"file":"oggetti-katosmerba.png","version":0,"size":449264,"properties":{}},{"file":"oggetti-mamma.png","version":1,"size":248357,"properties":{}},{"file":"oggetti-megamerba.png","version":1,"size":149997,"properties":{}},{"file":"oggetti-paolo.png","version":1,"size":186182,"properties":{}},{"file":"oggetti-papi.png","version":1,"size":430527,"properties":{}},{"file":"oggetti-sbadiglio.png","version":1,"size":100977,"properties":{}},{"file":"oggetti-spidero.png","version":1,"size":240904,"properties":{}}],"assets":[],"maps":{},"sounds":[{"file":"bonus.wav","version":1,"size":94158,"properties":{}},{"file":"gui-aiuto.wav","version":1,"size":32930,"properties":{}},{"file":"gui-click.wav","version":1,"size":43052,"properties":{}},{"file":"gui-exit.wav","version":1,"size":72386,"properties":{}},{"file":"gui-nome.wav","version":1,"size":32930,"properties":{}},{"file":"gui-punteggi.wav","version":1,"size":32930,"properties":{}},{"file":"gui-start.wav","version":1,"size":57918,"properties":{}},{"file":"malus.wav","version":1,"size":134580,"properties":{}},{"file":"morte.wav","version":1,"size":41258,"properties":{}},{"file":"oggetti-ale.wav","version":1,"size":183162,"properties":{}},{"file":"oggetti-gerry.wav","version":1,"size":127412,"properties":{}},{"file":"oggetti-katos.wav","version":1,"size":29644,"properties":{}},{"file":"oggetti-katosmerba.wav","version":1,"size":114508,"properties":{}},{"file":"oggetti-mamma.wav","version":1,"size":40020,"properties":{}},{"file":"oggetti-megamerba.wav","version":1,"size":527926,"properties":{}},{"file":"oggetti-paolo.wav","version":1,"size":150902,"properties":{}},{"file":"oggetti-papi.wav","version":1,"size":139248,"properties":{}},{"file":"wow.wav","version":1,"size":700494,"properties":{}}],"music":[{"file":"menu.mp3","version":1,"size":296901,"properties":{}},{"file":"musica.mp3","version":1,"size":2897107,"properties":{}}]};
+var graphics = "M1";
+
+</script><script type="text/javascript">var orientation = 'portrait' ;
+var aspect = '16x9' ;
+var ms_libs = [] ;
+window.skip_service_worker = true;
+window.exported_project = true;
+window.ms_use_server = false ;
+</script><script src="compiler.js"></script><script src="parser.js"></script><script src="processor.js"></script><script src="program.js"></script><script src="routine.js"></script><script src="runner.js"></script><script src="token.js"></script><script src="tokenizer.js"></script><script src="transpiler.js"></script><script src="microengine.js"></script></body><script type="text/javascript">//
+//
+// The game is started with the code below.
+// Once you have received the "started" signal (see below),
+// you can do the following:
+// 1) Inject functions or objects into the global context of the microStudio engine, example:
+//
+//   window.player.setGlobal("special_callback",function(x) { console.info(x) }) ;
+//   // Your microScript code can now call the "special_callback" function
+//
+// 2) Call microScript global functions from your JavaScript code, example:
+//
+//   window.player.call("call_me_from_javascript",[10,1000]) ;
+//   // arguments to the function call are provided as an array
+//
+// 3) Run a microScript code snippet from your JavaScript code, example:
+//
+//   window.player.exec("player.position_x = 50",function(result) { console.log(result) ; }) ;
+//
+
+window.addEventListener("load",function() {
+  window.player = new Player(function(event) {
+    if (event.name == "started") {
+      // signal that the game is started
+    }
+    else if (event.name == "log") {
+      // console.info(event.data) ;
+    }
+  }) ;
+  document.body.focus() ;
+}) ;
+
+</script><script id="code" type="text/x-microscript">
+
+
+function()
+system.javascript("""
+ 
+var background = false
+var volume = 0.7
+
+this.javascriptUpdate = function() {
+  this.background = background
+  
+  // Volumi
+  if(background) volume = Math.max(0, volume-0.02)
+  else volume = Math.min(volume+0.02, 0.7)
+  for(const musica of [this.musica, this.menu]) {
+    if(musica) {
+      musica.setVolume(volume)
+    }
+  }
+}
+
+this.inviaPunteggio = function(nome, avatar, punteggio) {
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", this.DB_URL + 'invia?nome=' + nome + '&avatar=' + avatar +'&punteggio=' + punteggio, true);
+  xhr.send();
+}
+
+function compara( a, b ) {
+  if ( a.punteggio < b.punteggio ){
+    return 1;
+  }
+  if ( a.punteggio > b.punteggio ){
+    return -1;
+  }
+  if ( Date.parse(a.data) < Date.parse(b.data) ){
+    return -1;
+  }
+  if ( Date.parse(a.data) > Date.parse(b.data) ){
+    return 1;
+  }
+  return 0;
+}
+
+this.aggiornaClassifica = function() {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", this.DB_URL + 'punteggi', true);
+  xhr.responseType = 'json';
+  var that = this
+  xhr.onload  = function() {
+    var jsonResponse = xhr.response;
+    while (jsonResponse.length < 10)
+      jsonResponse.push({
+        nome: '?',
+        avatar: 0,
+        punteggio: 0,
+        timestamp: ''
+      })
+    that.classifica = jsonResponse.sort(compara);
+    console.log(that.classifica);
+  };
+  xhr.send();
+  return 'Sto aggiornando la classifica...'
+}
+
+window.addEventListener('blur', () => background = true);
+window.addEventListener('focus', () => background = false);
+
+""")
+end()
+
+
+
+function()
+// RESET
+init = function()
+  DB_URL = "https://aleclasher.altervista.org/api/"
+  AVATAR = 8
+  
+  started = false
+  if musica then musica.stop() end
+  menu = audio.playMusic("menu",0.2,1)
+  record = storage.get('record')
+  nome = storage.get('nome')
+  avatar = min(max(storage.get('avatar'),1), AVATAR)
+  tmp_nome = if nome then nome else 'KATOS' end
+  tmp_nome_replace = true
+  volume = 0.7
+  speed = 0.7
+  timer = 0
+  
+  aggiornaClassifica()
+  
+  // Crea le nuvole
+  nuvole = [
+    new Nuvola(-100, 0, 0.05), 
+    new Nuvola(100, 90, 0.03), 
+    new Nuvola(100, -89, 0.02)
+  ]
+end
+
+// INIZIO GIOCO
+start = function()
+  started = true
+  if menu then menu.stop() end
+  musica = audio.playMusic("musica",0.1,1)
+  audio.playSound("gui/start")
+  punti = 0
+  recordParziale = 0
+  
+  // Crea i primi oggetti
+  oggetti = []
+  for i=1 to 10
+    oggetti += oggettoCasuale()
+  end
+end
+
+// AGGIORNAMENTI
+update = function()
+  MX = min(max(-screen.width/2,mouse.x),screen.width/2)
+  MY = min(max(-screen.height/2,mouse.y),screen.height/2)
+  
+  // PULSANTI MENU
+  if mouse.press and not started then
+    // Nome
+    if nome == false then
+      // Ok
+      if MX < 17.5 and
+         MX > -17.5 and
+         MY < -82 and
+         MY > -104 then
+        nome = tmp_nome
+        storage.set('nome', nome)
+        storage.set('avatar', avatar)
+        audio.playSound("gui/nome")
+      // Avatar <
+      elsif MX < -37 and
+            MX > -53 and
+            MY < 49 and
+            MY > 24 then
+        avatar = (AVATAR + avatar - 2) % AVATAR + 1
+        audio.playSound("gui/click")
+      // Avatar >
+      elsif MX < 53 and
+            MX > 37 and
+            MY < 49 and
+            MY > 24 then
+        avatar = avatar % AVATAR + 1
+        audio.playSound("gui/click")
+      elsif premiTastiera(MX, MY) == false then
+        audio.playSound('oggetti/katosmerba')
+      else
+        audio.playSound("gui/click")
+      end
+    // Aiuto
+    elsif aiuto then
+      if MX < 17.5 and
+         MX > -17.5 and
+         MY < -82 and
+         MY > -104 then
+        aiuto = false
+        audio.playSound("gui/aiuto")
+      else
+        audio.playSound('oggetti/katosmerba')
+      end
+    // Punteggi
+    elsif punteggi then
+      if MX < 17.5 and
+         MX > -17.5 and
+         MY < -82 and
+         MY > -104 then
+        punteggi = false
+        audio.playSound("gui/punteggi")
+      else
+        audio.playSound('oggetti/katosmerba')
+      end
+    else
+      if MX < 61 and
+         MX > -61 and
+         MY < 26 and
+         MY > -14 then
+        start()
+      elsif (MX - 63)^2 + (MY + 24)^2 <= 10^2 then
+        aiuto = true
+        audio.playSound("gui/aiuto")
+      elsif (MX + 63)^2 + (MY + 24)^2 <= 10^2 then
+        punteggi = true
+        aggiornaClassifica()
+        audio.playSound("gui/punteggi")
+      else
+        audio.playSound('oggetti/katosmerba')
+      end
+    end
+  end
+  
+  // JAVASCRIPT
+  javascriptUpdate()
+  
+  if background then return end
+  
+  // NUVOLE CHE SI MUOVONO
+  for nuvola in nuvole
+    nuvola.muovi()
+  end
+  
+  if not started then return end
+  
+  // -------------- GIOCO ----------------- //
+  
+  // EXIT
+  if mouse.press and
+     (MX-85)^2 + (MY-158)^2 <= 17^2 then
+    t = recordParziale
+    init()
+    audio.playSound("gui/exit")
+    recordParziale = t
+    inviaPunteggio(nome, avatar, recordParziale)
+    aggiornaClassifica()
+  end
+  
+  // RECORD
+  if record < recordParziale then
+    record = recordParziale
+    storage.set('record', record)
+  end
+  recordParziale = max(recordParziale, punti)
+  
+  // AGGIORNAMENTO OGGETTI
+  for oggetto in oggetti
+    oggetto.scende(punti)
+
+    if not oggetto.despawn then
+      // KATOS PRESO
+      if oggetto.prendibile(MX) then
+        oggetto.raccolto(punti)
+      end
+      
+      // KATOS MUORE
+      if oggetto.y < -164 then
+        punti -= oggetto.malus
+        oggetto.despawn = 1
+        if oggetto.malus then
+          audio.playSound("morte")
+        end
+        oggetti += oggettoCasuale(punti)
+      end
+    elsif oggetto.despawn > 120 then
+      oggetti -= oggetto
+    end
+  end
+  
+  // SPECIALI
+  noMerbe -= 1
+  rallentatore -= 1
+  merba_boost -= 1
+  meganuvola -= 1
+  flash_bonus -= 1
+  flash_malus -= 1
+  timer_special -= 1
+end
+
+// DISEGNA
+draw = function()
+  // SFONDO
+  screen.drawSprite("gui/sfondo",0,0,200)
+  for nuvola in nuvole
+    nuvola.disegna()
+  end
+  
+  
+  // MENU
+  if not started then
+    screen.drawSprite("gui/menu",0,0,200)
+    screen.drawText("Miglior Record: " + record, 0, 52, 14,"rgb(104,255,28)")
+    screen.drawText("Ultimo Record: " + recordParziale, 0, 42, 11,"rgb(227,255,236)")
+    // Immetti nome
+    if nome == false then
+      screen.clear('rgba(23,23,23,0.3)')
+      screen.drawSprite("gui/nome",-1,0,200)
+      screen.drawSprite("avatars/"+avatar,0,35,56)
+      screen.drawText(tmp_nome,0,78,14,'#000')
+    // Aiuto
+    elsif aiuto then
+      screen.clear('rgba(23,23,23,0.3)')
+      screen.drawSprite("gui/aiuto",-1,0,200)
+    // Punteggi
+    elsif punteggi then
+      screen.clear('rgba(23,23,23,0.3)')
+      screen.drawSprite("gui/punteggi",-1,0,200)
+      
+      screen.setDrawAnchor(-1,0)
+      
+      
+      
+      // PODIO
+      colori = ['#FB0', '#AAA', '#B70', '#666', '#666']
+      rank = 0
+      while rank < 3
+        p = classifica[rank]
+        screen.drawText(p.nome, -28, 87 - 40 * rank, 12, '#000')
+        screen.drawText('PUNTI: ' + p.punteggio, -28, 75 - 40 * rank, 15, colori[rank])
+        screen.drawText(p.timestamp, -28, 63 - 40 * rank, 12, '#000')
+        screen.drawSprite('avatars/' + p.avatar, -68, 75 - 40 * rank, 35)
+        rank += 1
+      end
+      // ALTRI POSIT
+      while rank < 5
+        p = classifica[rank]
+        screen.drawText(p.nome, -28, 64 - 32 * rank, 12, '#000')
+        screen.drawText('PUNTI: ' + p.punteggio, -28, 51 - 32 * rank, 15, colori[rank])
+        screen.drawSprite('avatars/' + p.avatar, -63, 56 - 32 * rank, 25)
+        rank += 1
+      end
+      screen.setDrawAnchor(0,0)
+    end
+    return
+  end
+  
+  // -------------- GIOCO ----------------- //
+  
+  // Flash dei bonus
+  if flash_bonus > 0 then
+    FADE_TIME = 5
+    screen.setAlpha(
+      if flash_bonus < FADE_TIME then 
+        flash_bonus / FADE_TIME 
+      elsif flash_bonus > 60 - FADE_TIME then
+        (60-flash_bonus) / FADE_TIME
+      else
+        1
+      end
+    )
+    screen.drawSprite("bagliore_verde",0,0,screen.width,screen.hight)
+    screen.setAlpha(1)
+  end
+  
+  // Flash dei malus
+  if flash_malus > 0 then
+    FADE_TIME = 5
+    screen.setAlpha(
+      if flash_malus < FADE_TIME then 
+        flash_malus / FADE_TIME 
+      elsif flash_malus > 60 - FADE_TIME then
+        (60-flash_malus) / FADE_TIME
+      else
+        1
+      end
+    )
+    screen.drawSprite("bagliore_rosso",0,0,screen.width,screen.hight)
+    screen.setAlpha(1)
+  end
+  
+  // Descrizione dei special
+  if timer_special > 0 then
+    screen.setAlpha(0.5)
+    if special == 'spidero' then
+      screen.drawText("Katosmerda e Megamerda",0,30,15,"#FFF")
+      screen.drawText("rimossi per",0,10,15,"#FFF")
+    elsif special == 'sbadiglio' then
+      screen.drawText("Tutto va a rallentatore",0,30,15,"#FFF")
+      screen.drawText("per",0,10,15,"#FFF")
+    elsif special == 'giulia' then
+      screen.drawText("Pioggia di Katosmerda",0,30,15,"#FFF")
+      screen.drawText("per",0,10,15,"#FFF")
+    end
+    screen.drawText(ceil(timer_special/60),0,-30,50,"#FFF")
+    screen.setAlpha(1)
+  end
+  
+  
+  // OGGETTI
+  for oggetto in oggetti
+    oggetto.disegna()
+  end
+  
+  // MEGANUVOLA
+  if meganuvola > 0 then
+    screen.drawSprite('gui/nuvola', (meganuvola-(30*10))*1.3, 50, 700, 500)
+  end
+  
+  // CESTO
+  if not background then
+    screen.drawSprite("cesto", MX, -150, 40)
+  end
+  
+  // BACKGROUND
+  if background then
+    screen.clear('rgba(23,23,23,0.3)')
+    screen.drawSprite('gui/pausa', 0, 0, 50)
+  end
+  
+  // GUI
+  screen.drawText("Punti: " + punti, 0, 160, 30, "white")
+  screen.drawText("Record: " + recordParziale, 0, 144, 14, "rgb(104,255,28)")
+  screen.drawSprite("gui/exit", 85, 158, 17 )
+end
+
+end()
+
+
+
+function()
+Nuvola = class
+  constructor = function(x,y,inc)
+    this.x = x
+    this.y = y
+    this.inc = inc
+  end
+    
+  muovi = function()
+    this.ox = this.x + 50*sin(this.a += this.inc)
+  end
+  
+  disegna = function()
+    screen.drawSprite("gui/nuvola", this.ox, this.y, 90, 90)
+  end
+end
+end()
+
+
+
+function()
+Ale = class extends Oggetto
+  constructor = function()
+    // nome, punti
+    super('ale', 100)
+    this.dimensione = 10
+    this.ruota = random.nextInt(360) + 1
+  end
+  
+  probabilita = function(punti)
+    punti = max(0, punti)
+    // Sempre 1%
+    1
+  end
+  
+  scende = function(punti)
+    super()
+    if this.despawn then return end
+    local amount = min(max(1.5,punti/150),7.5) * global.speed
+    if rallentatore > 0 then amount /= 2 end
+    this.y -= amount
+  end
+end
+end()
+
+
+
+function()
+Bro = class extends Oggetto
+  constructor = function()
+    // nome, punti
+    super('bro', 0)
+    this.special = true
+    this.dimensione = 22
+    this.ruota = random.nextInt(360) + 1
+  end
+  
+  probabilita = function(punti)
+    punti = max(0, punti)
+    if global.timer_special > 0 then return 0 end
+    if punti < 200 then return 0 end
+    if global.meganuvola > 0 then return 0 end
+    // Sempre 0.25%
+    0.25
+  end
+  
+  scende = function(punti)
+    super()
+    if this.despawn then return end
+    local amount = min(max(1.2,punti/200),5) * global.speed
+    if rallentatore > 0 then amount /= 2 end
+    this.y -= amount
+  end
+  
+  raccolto = function(punti)
+    super()
+    global.meganuvola = 10* 60
+    global.flash_malus = 60
+    global.timer_special = 10 * 60
+    global.special = this.name
+    audio.playSound('malus')
+  end
+end
+end()
+
+
+
+function()
+Gerry = class extends Oggetto
+  constructor = function()
+    // nome, punti
+    super('gerry', 50)
+    this.dimensione = 15
+    this.fluttua = random.nextInt(360) + 1
+    this.ruota = random.nextInt(360) + 1
+  end
+  
+  probabilita = function(punti)
+    punti = max(0, punti)
+    // Sempre 2%
+    2
+  end
+  
+  scende = function(punti)
+    super()
+    if this.despawn then return end
+    local amount = min(max(2.5,punti/110),9.5) * global.speed
+    if rallentatore > 0 then amount /= 2 end
+    this.y -= amount
+    if this.fluttua then
+      this.x = this.base_x + 40*sin(this.fluttua += 0.05)
+      this.y += 1.5*sin(this.fluttua)^4
+    end
+  end
+end
+end()
+
+
+
+function()
+Giulia = class extends Oggetto
+  constructor = function()
+    // nome, punti
+    super('giulia', 0)
+    this.special = true
+    this.dimensione = 22
+    this.ruota = random.nextInt(360) + 1
+  end
+  
+  probabilita = function(punti)
+    punti = max(0, punti)
+    if global.timer_special > 0 then return 0 end
+    if punti < 200 then return 0 end
+    // Sempre 0.25%
+    0.25
+  end
+  
+  scende = function(punti)
+    super()
+    if this.despawn then return end
+    local amount = min(max(1.2,punti/200),5) * global.speed
+    if rallentatore > 0 then amount /= 2 end
+    this.y -= amount
+  end
+  
+  raccolto = function(punti)
+    super()
+    global.merba_boost = 10*60
+    global.flash_malus = 60
+    global.timer_special = 10 * 60
+    global.special = this.name
+    audio.playSound('malus')
+  end
+end
+end()
+
+
+
+function()
+Katos = class extends Oggetto
+  constructor = function()
+    // nome, punti
+    super('katos', 10)
+    this.dimensione = 22
+  end
+  
+  probabilita = function(punti)
+    punti = max(0, punti)
+    // Da 25% scende lentamente
+    max(1,
+      4.404861168939e-7 * punti ^ 2 -
+      0.00831743 * punti + 25.14224
+    )
+  end
+  
+  scende = function(punti)
+    super()
+    if this.despawn then return end
+    local amount = min(max(1.5,punti/150),7.5) * global.speed
+    if rallentatore > 0 then amount /= 2 end
+    this.y -= amount
+  end
+end
+end()
+
+
+
+function()
+Katosmerba = class extends Oggetto
+  constructor = function()
+    // nome, punti
+    super('katosmerba', -50)
+  end
+  
+  probabilita = function(punti)
+    punti = max(0, punti)
+    if noMerbe > 0 then return 0 end
+    if merba_boost > 0 then return 10000 end
+    // Da 9% sale a 45%
+    if punti > 10000 then
+      45
+    else
+      -7.1e-7 * punti ^ 2 + 
+      0.0121693 * punti + 10.7002
+    end
+  end
+  
+  scende = function(punti)
+    super()
+    if this.despawn then return end
+    local amount = min(max(1.5,punti/150),7.5) * global.speed
+    if rallentatore > 0 then amount /= 2 end
+    this.y -= amount
+  end
+end
+end()
+
+
+
+function()
+Mamma = class extends Oggetto
+  constructor = function()
+    // nome, punti
+    super('mamma', 20)
+  end
+  
+  probabilita = function(punti)
+    punti = max(0, punti)
+    // Da 20% scende lentamente
+    max(1,
+      4.404861168939e-7 * punti ^ 2 -
+      0.00831743 * punti + 20.14224
+    )
+  end
+  
+  scende = function(punti)
+    super()
+    if this.despawn then return end
+    local amount = min(max(1.6,punti/130),8.5) * global.speed
+    if rallentatore > 0 then amount /= 2 end
+    this.y -= amount
+  end
+end
+end()
+
+
+
+function()
+Megamerba = class extends Oggetto
+  constructor = function()
+    // nome, punti
+    super('megamerba', -200)
+    this.dimensione = 50
+    this.ruota = random.nextInt(360) + 1
+  end
+  
+  probabilita = function(punti)
+    punti = max(0, punti)
+    if noMerbe > 0 then return 0 end
+    if merba_boost > 0 then return 5000 end
+    if punti < 300 then return 0 end
+    // Da 2% sale a 33.5%
+    if punti > 5000 then
+      33.5
+    else
+      -7.1e-7 * punti ^ 2 + 
+      0.0131693 * x + 1
+    end
+  end
+  
+  scende = function(punti)
+    super()
+    if this.despawn then return end
+    local amount = min(max(1.7,punti/100),10) * global.speed
+    if rallentatore > 0 then amount /= 2 end
+    this.y -= amount
+  end
+end
+end()
+
+
+
+function()
+Oggetto = class
+  constructor = function(nome, punti)
+    this.name = nome
+    this.nome = 'oggetti/' + nome
+    this.dimensione = 20
+    this.ruota = false
+    
+    this.bonus = punti
+    this.malus = max(0, punti / 2)
+    
+    this.a = random.nextInt(360)
+    this.despawn = false
+    
+    // Posizione
+    this.x = random.nextInt(200) - 100
+    this.y = random.nextInt(300) + 180
+  end
+  
+  probabilita = function(punti) end
+  spawn = function(punti) end
+  raccolto = function(punti)
+    global.punti += this.bonus
+    this.despawn = 1
+    this.preso = true
+    audio.playSound(this.nome)
+    global.oggetti += oggettoCasuale(punti)
+    
+    // Despawn altri bonus/malus
+    if this.special then
+      for oggetto in global.oggetti
+        if not oggetto.despawn and oggetto.special then
+          oggetto.despawn = 1
+          global.oggetti += oggettoCasuale(punti)
+        end
+      end
+    end
+  end
+  
+  prendibile = function(X)
+    this.y < -140 and
+    this.y >= -150 and
+    this.x - this.dimensione/2 < X + 15 and
+    this.x + this.dimensione/2 > X -15
+  end
+  
+  scende = function(punti)
+    this.a += 1
+    if this.despawn then 
+      this.despawn += 1 
+    end
+  end
+  
+  disegna = function()
+    // OGGETTO
+    if this.ruota then
+      screen.setDrawRotation(this.a + this.ruota)
+    end
+    if this.despawn then
+      screen.setAlpha(max(0,(20-this.despawn)/20))
+    end
+    screen.drawSprite(this.nome, this.x, this.y, this.dimensione)
+    screen.setDrawRotation(0)
+    screen.setAlpha(1)
+    
+    // PUNTEGGIO POPUP
+    if this.despawn == 2 then
+      this.popup_a = random.nextInt(180)
+      this.popup_x = this.x
+      if global.popup == 'parabolico' then
+        this.popup_y = this.y + this.dimensione/2
+      else 
+        this.popup_y = this.y
+      end
+      this.popup_dx = cosd(this.popup_a) * 0.5
+      this.popup_dy = sind(this.popup_a) * 0.7
+    end
+    if this.despawn >= 2 then
+      local testo = if this.preso then
+        this.bonus
+      else
+        -this.malus
+      end
+      screen.setAlpha(max(0,(min(10,60-this.despawn))/10))
+      if global.popup == 'parabolico' then
+        this.popup_x += this.popup_dx
+        this.popup_y += (this.popup_dy -= 0.08)
+      else
+        this.popup_y += 0.08
+      end
+      if testo > 0 then
+        screen.drawText('+' + testo, this.popup_x, this.popup_y, 10,"rgb(57,170,0)")
+      elsif testo < 0 then
+        screen.drawText(testo, this.popup_x, this.popup_y, 10,"rgb(170,0,0)")
+      end
+      screen.setAlpha(1)
+    end
+  end
+end
+
+oggettoCasuale = function(punti)
+  local oggetti_in_gioco = [
+    new Ale, 
+    new Gerry,
+    new Mamma,
+    new Megamerba
+    new Katos, 
+    new Katosmerba, 
+    new Paolo,
+    new Papi,
+
+    new Bro,
+    new Giulia    
+    new Sbadiglio,
+    new Spidero
+  ]
+  local probabilita = []
+  local somma = 0
+  for oggetto in oggetti_in_gioco
+    somma += oggetto.probabilita(punti)
+    probabilita += somma
+  end
+  
+  local casuale = random.nextInt(1000)/1000 * somma
+  local i = 0
+  while probabilita[i] < casuale
+    i += 1
+  end
+  oggetti_in_gioco[i].spawn(punti)
+  oggetti_in_gioco[i]
+end
+  
+end()
+
+
+
+function()
+Paolo = class extends Oggetto
+  constructor = function()
+    // nome, punti
+    super('paolo', 20)
+  end
+  
+  probabilita = function(punti)
+    punti = max(0, punti)
+    // Da 20% scende lentamente
+    74.5307 - 9.60773 * log(0.541836 * punti + 296.248)
+  end
+  
+  scende = function(punti)
+    super()
+    if this.despawn then return end
+    local amount = min(max(1.8,punti/125),7.5) * global.speed
+    if rallentatore > 0 then amount /= 2 end
+    this.y -= amount
+  end
+end
+end()
+
+
+
+function()
+Papi = class extends Oggetto
+  constructor = function()
+    // nome, punti
+    super('papi', 20)
+  end
+  
+  probabilita = function(punti)
+    punti = max(0, punti)
+    // Da 20% scende lentamente
+    max(1,
+      4.404861168939e-7 * punti ^ 2 -
+      0.00831743 * punti + 20.14224
+    )
+  end
+  
+  scende = function(punti)
+    super()
+    if this.despawn then return end
+    local amount = min(max(1.6,punti/130),8.5) * global.speed
+    if rallentatore > 0 then amount /= 2 end
+    this.y -= amount
+  end
+end
+end()
+
+
+
+function()
+Sbadiglio = class extends Oggetto
+  constructor = function()
+    // nome, punti
+    super('sbadiglio', 0)
+    this.special = true
+    this.dimensione = 22
+    this.ruota = random.nextInt(360) + 1
+  end
+  
+  probabilita = function(punti)
+    punti = max(0, punti)
+    if global.timer_special > 0 then return 0 end
+    if punti < 200 then return 0 end
+    // Sempre 0.25%
+    0.25
+  end
+  
+  scende = function(punti)
+    super()
+    if this.despawn then return end
+    local amount = min(max(1.2,punti/200),5) * global.speed
+    if rallentatore > 0 then amount /= 2 end
+    this.y -= amount
+    if not this.apparso and this.y < screen.height/2 then
+      audio.playSound('wow')
+      this.apparso = true
+    end
+  end
+  
+  raccolto = function(punti)
+    super()
+    global.rallentatore = 10 * 60
+    global.flash_bonus = 60
+    global.timer_special = 10 * 60
+    global.special = this.name
+    audio.playSound('bonus')
+  end
+end
+end()
+
+
+
+function()
+Spidero = class extends Oggetto
+  constructor = function()
+    // nome, punti
+    super('spidero', 0)
+    this.special = true
+    this.dimensione = 22
+    this.base_x = this.x
+    this.fluttua = random.nextInt(360) + 1
+    this.ruota = random.nextInt(360) + 1
+  end
+  
+  probabilita = function(punti)
+    punti = max(0, punti)
+    if global.timer_special > 0 then return 0 end
+    if punti < 200 then return 0 end
+    // Sempre 0.25%
+    0.25
+  end
+  
+  scende = function(punti)
+    super()
+    if this.despawn then return end
+    local amount = min(max(1,punti/300),4) * global.speed
+    if rallentatore > 0 then amount /= 2 end
+    this.y -= amount
+    if this.fluttua then
+      this.x = this.base_x + 25*sin(this.fluttua += 0.03)
+      this.y += 1.5*sin(this.fluttua)^4
+    end
+    if not this.apparso and this.y < screen.height/2 then
+      audio.playSound('wow')
+      this.apparso = true
+    end
+  end
+  
+  raccolto = function(punti)
+    super()
+    global.noMerbe = 10 * 60
+    global.flash_bonus = 60
+    global.timer_special = 10 * 60
+    global.special = this.name
+    // Despawn delle merbe
+    for oggetto in global.oggetti
+      if not oggetto.despawn and (
+         oggetto.nome == "oggetti/megamerba" or 
+         oggetto.nome == "oggetti/katosmerba") then
+        oggetto.despawn = 1
+        global.oggetti += oggettoCasuale(punti)
+      end
+    end
+    audio.playSound('bonus')
+  end
+end
+end()
+
+
+
+function()
+premiTastiera = function(MX, MY)
+  screen.drawRect(-60,-16,12,16)
+  screen.drawRect(-41,-54,12,16)
+  
+  riga = if MY < -8  and MY > -24 then 1
+      elsif MY < -27 and MY > -43 then 2
+      elsif MY < -46 and MY > -62 then 3
+      elsif MY < -65 and MY > -81 then 4
+      else 0 end
+  
+  tasto = if riga == 0 then 0
+    elsif riga == 1 then
+      if    MX < -54 and MX > -66 then '1'
+      elsif MX < -41 and MX > -53 then '2'
+      elsif MX < -27 and MX > -39 then '3'
+      elsif MX < -14 and MX > -26 then '4'
+      elsif MX < -1  and MX > -13 then '5'
+      elsif MX <  12 and MX >  0  then '6'
+      elsif MX <  25 and MX >  13 then '7'
+      elsif MX <  39 and MX >  27 then '8'
+      elsif MX <  52 and MX >  40 then '9'
+      elsif MX <  66 and MX >  54 then '0' 
+      end
+    elsif riga == 2 then
+      if    MX < -54 and MX > -66 then 'Q'
+      elsif MX < -41 and MX > -53 then 'W'
+      elsif MX < -27 and MX > -39 then 'E'
+      elsif MX < -14 and MX > -26 then 'R'
+      elsif MX < -1  and MX > -13 then 'T'
+      elsif MX <  12 and MX >  0  then 'Y'
+      elsif MX <  25 and MX >  13 then 'U'
+      elsif MX <  39 and MX >  27 then 'I'
+      elsif MX <  52 and MX >  40 then 'O'
+      elsif MX <  66 and MX >  54 then 'P' 
+      end
+    elsif riga == 3 then
+      if    MX < -48 and MX > -60 then 'A'
+      elsif MX < -35 and MX > -47 then 'S'
+      elsif MX < -21 and MX > -33 then 'D'
+      elsif MX < -8  and MX > -20 then 'F'
+      elsif MX <  5  and MX > -7  then 'G'
+      elsif MX <  18 and MX >  6  then 'H'
+      elsif MX <  31 and MX >  19 then 'J'
+      elsif MX <  45 and MX >  33 then 'K'
+      elsif MX <  58 and MX >  46 then 'L'
+      end
+     elsif riga == 4 then
+      if    MX < -48 and MX > -66 then ' '
+      elsif MX < -35 and MX > -47 then 'Z'
+      elsif MX < -21 and MX > -33 then 'X'
+      elsif MX < -8  and MX > -20 then 'C'
+      elsif MX <  5  and MX > -7  then 'V'
+      elsif MX <  18 and MX >  6  then 'B'
+      elsif MX <  31 and MX >  19 then 'N'
+      elsif MX <  45 and MX >  33 then 'M'
+      elsif MX <  66 and MX >  46 then '-'
+      end
+  end
+  
+  if tasto != '-' and tmp_nome.length >= 16 then tasto = false end
+  
+  if tasto then
+    if tmp_nome_replace == true then tmp_nome = '' end
+    if tasto == '-' then
+      tmp_nome = tmp_nome.substring(0, tmp_nome.length - 1)
+    else 
+      tmp_nome = tmp_nome + tasto
+    end
+    tmp_nome_replace = false
+  end
+  
+  return tasto
+end
+end()
+
+
+</script></html>
